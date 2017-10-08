@@ -1,0 +1,570 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'cookie-parser',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData cookie-parser@^1.4.3
+8 silly fetchNamedPackageData cookie-parser
+9 silly mapToRegistry name cookie-parser
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'cookie-parser',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'cookie-parser',
+12 silly mapToRegistry   name: 'cookie-parser',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+14 verbose request uri https://registry.npmjs.org/cookie-parser
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 8:53:18 PM
+17 verbose request id c5fd39e54feacc6a
+18 verbose etag W/"59176ded-6a33"
+19 verbose lastModified Sat, 13 May 2017 20:34:53 GMT
+20 http request GET https://registry.npmjs.org/cookie-parser
+21 http 304 https://registry.npmjs.org/cookie-parser
+22 verbose headers { date: 'Sun, 14 May 2017 13:53:20 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"59176ded-6a33"',
+22 verbose headers   age: '55',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-sjc3646-SJC',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1494770001.641146,VS0,VE1',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 14 May 2017 13:53:20 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"59176ded-6a33"',
+23 silly get     age: '55',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sjc3646-SJC',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1494770001.641146,VS0,VE1',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/cookie-parser from cache
+25 verbose get saving cookie-parser to /home/trinhthang/.npm/registry.npmjs.org/cookie-parser/.cache.json
+26 verbose correctMkdir /home/trinhthang/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule cookie-parser@1.4.3 checking installable status
+40 silly cache add args [ 'cookie-parser@^1.4.3', null ]
+41 verbose cache add spec cookie-parser@^1.4.3
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'cookie-parser@^1.4.3',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'cookie-parser',
+42 silly cache add   name: 'cookie-parser',
+42 silly cache add   rawSpec: '^1.4.3',
+42 silly cache add   spec: '>=1.4.3 <2.0.0',
+42 silly cache add   type: 'range' }
+43 silly addNamed cookie-parser@>=1.4.3 <2.0.0
+44 verbose addNamed ">=1.4.3 <2.0.0" is a valid semver range for cookie-parser
+45 silly addNameRange { name: 'cookie-parser',
+45 silly addNameRange   range: '>=1.4.3 <2.0.0',
+45 silly addNameRange   hasData: false }
+46 silly mapToRegistry name cookie-parser
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'cookie-parser',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'cookie-parser',
+49 silly mapToRegistry   name: 'cookie-parser',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+51 verbose addNameRange registry:https://registry.npmjs.org/cookie-parser not in flight; fetching
+52 verbose get https://registry.npmjs.org/cookie-parser not expired, no request
+53 silly addNameRange number 2 { name: 'cookie-parser', range: '>=1.4.3 <2.0.0', hasData: true }
+54 silly addNameRange versions [ 'cookie-parser',
+54 silly addNameRange   [ '1.0.0',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '1.1.0',
+54 silly addNameRange     '1.2.0',
+54 silly addNameRange     '1.3.0',
+54 silly addNameRange     '1.3.1',
+54 silly addNameRange     '1.3.2',
+54 silly addNameRange     '1.3.3',
+54 silly addNameRange     '1.3.4',
+54 silly addNameRange     '1.3.5',
+54 silly addNameRange     '1.4.0',
+54 silly addNameRange     '1.4.1',
+54 silly addNameRange     '1.4.2',
+54 silly addNameRange     '1.4.3' ] ]
+55 silly addNamed cookie-parser@1.4.3
+56 verbose addNamed "1.4.3" is a plain semver version for cookie-parser
+57 silly cache afterAdd cookie-parser@1.4.3
+58 verbose afterAdd /home/trinhthang/.npm/cookie-parser/1.4.3/package/package.json not in flight; writing
+59 verbose correctMkdir /home/trinhthang/.npm correctMkdir not in flight; initializing
+60 verbose afterAdd /home/trinhthang/.npm/cookie-parser/1.4.3/package/package.json written
+61 silly loadAllDepsIntoIdealTree Finishing
+62 silly loadIdealTree Finishing
+63 silly currentTree long@1.0.0
+63 silly currentTree ├── abbrev@1.1.0
+63 silly currentTree ├── accepts@1.3.3
+63 silly currentTree ├── ajv@4.11.8
+63 silly currentTree ├── ansi-regex@2.1.1
+63 silly currentTree ├── aproba@1.1.1
+63 silly currentTree ├── are-we-there-yet@1.1.4
+63 silly currentTree ├── array-flatten@1.1.1
+63 silly currentTree ├── asn1@0.2.3
+63 silly currentTree ├── assert-plus@0.2.0
+63 silly currentTree ├── async@2.1.4
+63 silly currentTree ├── asynckit@0.4.0
+63 silly currentTree ├── aws-sign2@0.6.0
+63 silly currentTree ├── aws4@1.6.0
+63 silly currentTree ├── balanced-match@0.4.2
+63 silly currentTree ├── base64url@2.0.0
+63 silly currentTree ├── bcrypt-pbkdf@1.0.1
+63 silly currentTree ├── bcrypt@1.0.2
+63 silly currentTree ├── bindings@1.2.1
+63 silly currentTree ├── block-stream@0.0.9
+63 silly currentTree ├── bluebird@2.10.2
+63 silly currentTree ├─┬ body-parser@1.17.1
+63 silly currentTree │ ├── debug@2.6.1
+63 silly currentTree │ └── ms@0.7.2
+63 silly currentTree ├── boom@2.10.1
+63 silly currentTree ├── brace-expansion@1.1.7
+63 silly currentTree ├── bson@1.0.4
+63 silly currentTree ├── buffer-equal-constant-time@1.0.1
+63 silly currentTree ├── buffer-shims@1.0.0
+63 silly currentTree ├── bytes@2.4.0
+63 silly currentTree ├── caseless@0.12.0
+63 silly currentTree ├── co@4.6.0
+63 silly currentTree ├── code-point-at@1.1.0
+63 silly currentTree ├── combined-stream@1.0.5
+63 silly currentTree ├── concat-map@0.0.1
+63 silly currentTree ├── console-control-strings@1.1.0
+63 silly currentTree ├── content-disposition@0.5.2
+63 silly currentTree ├── content-type@1.0.2
+63 silly currentTree ├── cookie-signature@1.0.6
+63 silly currentTree ├── cookie@0.3.1
+63 silly currentTree ├── core-util-is@1.0.2
+63 silly currentTree ├── crc@3.4.4
+63 silly currentTree ├── cryptiles@2.0.5
+63 silly currentTree ├─┬ dashdash@1.14.1
+63 silly currentTree │ └── assert-plus@1.0.0
+63 silly currentTree ├── debug@2.2.0
+63 silly currentTree ├── deep-extend@0.4.2
+63 silly currentTree ├── delayed-stream@1.0.0
+63 silly currentTree ├── delegates@1.0.0
+63 silly currentTree ├── depd@1.1.0
+63 silly currentTree ├── destroy@1.0.4
+63 silly currentTree ├── ecc-jsbn@0.1.1
+63 silly currentTree ├── ecdsa-sig-formatter@1.0.9
+63 silly currentTree ├── ee-first@1.1.1
+63 silly currentTree ├── encodeurl@1.0.1
+63 silly currentTree ├── es6-promise@3.2.1
+63 silly currentTree ├── escape-html@1.0.3
+63 silly currentTree ├── etag@1.8.0
+63 silly currentTree ├─┬ express-session@1.15.2
+63 silly currentTree │ ├── debug@2.6.3
+63 silly currentTree │ └── ms@0.7.2
+63 silly currentTree ├─┬ express@4.15.2
+63 silly currentTree │ ├── debug@2.6.1
+63 silly currentTree │ └── ms@0.7.2
+63 silly currentTree ├── extend@3.0.1
+63 silly currentTree ├── extsprintf@1.0.2
+63 silly currentTree ├─┬ finalhandler@1.0.2
+63 silly currentTree │ ├── debug@2.6.4
+63 silly currentTree │ └── ms@0.7.3
+63 silly currentTree ├── forever-agent@0.6.1
+63 silly currentTree ├── form-data@2.1.4
+63 silly currentTree ├── forwarded@0.1.0
+63 silly currentTree ├── fresh@0.5.0
+63 silly currentTree ├── fs.realpath@1.0.0
+63 silly currentTree ├── fstream-ignore@1.0.5
+63 silly currentTree ├── fstream@1.0.11
+63 silly currentTree ├── gauge@2.7.4
+63 silly currentTree ├─┬ getpass@0.1.7
+63 silly currentTree │ └── assert-plus@1.0.0
+63 silly currentTree ├── glob@7.1.1
+63 silly currentTree ├── graceful-fs@4.1.11
+63 silly currentTree ├── har-schema@1.0.5
+63 silly currentTree ├── har-validator@4.2.1
+63 silly currentTree ├── has-unicode@2.0.1
+63 silly currentTree ├── hawk@3.1.3
+63 silly currentTree ├── hoek@2.16.3
+63 silly currentTree ├── hooks-fixed@2.0.0
+63 silly currentTree ├── http-errors@1.6.1
+63 silly currentTree ├── http-signature@1.1.1
+63 silly currentTree ├── iconv-lite@0.4.15
+63 silly currentTree ├── inflight@1.0.6
+63 silly currentTree ├── inherits@2.0.3
+63 silly currentTree ├── ini@1.3.4
+63 silly currentTree ├── ipaddr.js@1.3.0
+63 silly currentTree ├── is-fullwidth-code-point@1.0.0
+63 silly currentTree ├── is-typedarray@1.0.0
+63 silly currentTree ├── isarray@1.0.0
+63 silly currentTree ├── isemail@1.2.0
+63 silly currentTree ├── isstream@0.1.2
+63 silly currentTree ├── jodid25519@1.0.2
+63 silly currentTree ├── joi@6.10.1
+63 silly currentTree ├── jsbn@0.1.1
+63 silly currentTree ├── json-schema@0.2.3
+63 silly currentTree ├── json-stable-stringify@1.0.1
+63 silly currentTree ├── json-stringify-safe@5.0.1
+63 silly currentTree ├── jsonify@0.0.0
+63 silly currentTree ├── jsonwebtoken@7.4.0
+63 silly currentTree ├─┬ jsprim@1.4.0
+63 silly currentTree │ └── assert-plus@1.0.0
+63 silly currentTree ├── jwa@1.1.5
+63 silly currentTree ├── jws@3.1.4
+63 silly currentTree ├── kareem@1.4.1
+63 silly currentTree ├── lodash.once@4.1.1
+63 silly currentTree ├── lodash@4.17.4
+63 silly currentTree ├── media-typer@0.3.0
+63 silly currentTree ├── merge-descriptors@1.0.1
+63 silly currentTree ├── methods@1.1.2
+63 silly currentTree ├── mime-db@1.27.0
+63 silly currentTree ├── mime-types@2.1.15
+63 silly currentTree ├── mime@1.3.4
+63 silly currentTree ├── minimatch@3.0.4
+63 silly currentTree ├── minimist@0.0.8
+63 silly currentTree ├── mkdirp@0.5.1
+63 silly currentTree ├── moment@2.18.1
+63 silly currentTree ├── mongodb-core@2.1.10
+63 silly currentTree ├─┬ mongodb@2.2.26
+63 silly currentTree │ └── readable-stream@2.2.7
+63 silly currentTree ├─┬ mongoose@4.9.9
+63 silly currentTree │ └── ms@0.7.2
+63 silly currentTree ├── mpath@0.2.1
+63 silly currentTree ├── mpromise@0.5.5
+63 silly currentTree ├─┬ mquery@2.3.0
+63 silly currentTree │ └── sliced@0.0.5
+63 silly currentTree ├── ms@0.7.1
+63 silly currentTree ├── muri@1.2.1
+63 silly currentTree ├── nan@2.5.0
+63 silly currentTree ├── negotiator@0.6.1
+63 silly currentTree ├── node-pre-gyp@0.6.32
+63 silly currentTree ├── nopt@3.0.6
+63 silly currentTree ├── npmlog@4.1.0
+63 silly currentTree ├── number-is-nan@1.0.1
+63 silly currentTree ├── oauth-sign@0.8.2
+63 silly currentTree ├── object-assign@4.1.1
+63 silly currentTree ├── on-finished@2.3.0
+63 silly currentTree ├── on-headers@1.0.1
+63 silly currentTree ├── once@1.4.0
+63 silly currentTree ├── parseurl@1.3.1
+63 silly currentTree ├── path-is-absolute@1.0.1
+63 silly currentTree ├── path-to-regexp@0.1.7
+63 silly currentTree ├── performance-now@0.2.0
+63 silly currentTree ├── process-nextick-args@1.0.7
+63 silly currentTree ├── proxy-addr@1.1.4
+63 silly currentTree ├── punycode@1.4.1
+63 silly currentTree ├── qs@6.4.0
+63 silly currentTree ├── random-bytes@1.0.0
+63 silly currentTree ├── range-parser@1.2.0
+63 silly currentTree ├── raw-body@2.2.0
+63 silly currentTree ├─┬ rc@1.1.7
+63 silly currentTree │ └── minimist@1.2.0
+63 silly currentTree ├── readable-stream@2.2.9
+63 silly currentTree ├── regexp-clone@0.0.1
+63 silly currentTree ├── request@2.81.0
+63 silly currentTree ├── require_optional@1.0.0
+63 silly currentTree ├── resolve-from@2.0.0
+63 silly currentTree ├── rimraf@2.5.4
+63 silly currentTree ├── safe-buffer@5.0.1
+63 silly currentTree ├── semver@5.3.0
+63 silly currentTree ├─┬ send@0.15.1
+63 silly currentTree │ ├── debug@2.6.1
+63 silly currentTree │ └── ms@0.7.2
+63 silly currentTree ├── serve-static@1.12.1
+63 silly currentTree ├── set-blocking@2.0.0
+63 silly currentTree ├── setprototypeof@1.0.3
+63 silly currentTree ├── signal-exit@3.0.2
+63 silly currentTree ├── sliced@1.0.1
+63 silly currentTree ├── sntp@1.0.9
+63 silly currentTree ├─┬ sshpk@1.13.0
+63 silly currentTree │ └── assert-plus@1.0.0
+63 silly currentTree ├── statuses@1.3.1
+63 silly currentTree ├── string_decoder@1.0.0
+63 silly currentTree ├── string-width@1.0.2
+63 silly currentTree ├── stringstream@0.0.5
+63 silly currentTree ├── strip-ansi@3.0.1
+63 silly currentTree ├── strip-json-comments@2.0.1
+63 silly currentTree ├─┬ tar-pack@3.3.0
+63 silly currentTree │ ├── once@1.3.3
+63 silly currentTree │ ├── readable-stream@2.1.5
+63 silly currentTree │ └── string_decoder@0.10.31
+63 silly currentTree ├── tar@2.2.1
+63 silly currentTree ├── topo@1.1.0
+63 silly currentTree ├── tough-cookie@2.3.2
+63 silly currentTree ├── tunnel-agent@0.6.0
+63 silly currentTree ├── tweetnacl@0.14.5
+63 silly currentTree ├── type-is@1.6.15
+63 silly currentTree ├── uid-number@0.0.6
+63 silly currentTree ├── uid-safe@2.1.4
+63 silly currentTree ├── unpipe@1.0.0
+63 silly currentTree ├── util-deprecate@1.0.2
+63 silly currentTree ├── utils-merge@1.0.0
+63 silly currentTree ├── uuid@3.0.1
+63 silly currentTree ├── vary@1.1.1
+63 silly currentTree ├── verror@1.3.6
+63 silly currentTree ├── wide-align@1.1.2
+63 silly currentTree ├── wrappy@1.0.2
+63 silly currentTree └── xtend@4.0.1
+64 silly idealTree long@1.0.0
+64 silly idealTree ├── abbrev@1.1.0
+64 silly idealTree ├── accepts@1.3.3
+64 silly idealTree ├── ajv@4.11.8
+64 silly idealTree ├── ansi-regex@2.1.1
+64 silly idealTree ├── aproba@1.1.1
+64 silly idealTree ├── are-we-there-yet@1.1.4
+64 silly idealTree ├── array-flatten@1.1.1
+64 silly idealTree ├── asn1@0.2.3
+64 silly idealTree ├── assert-plus@0.2.0
+64 silly idealTree ├── async@2.1.4
+64 silly idealTree ├── asynckit@0.4.0
+64 silly idealTree ├── aws-sign2@0.6.0
+64 silly idealTree ├── aws4@1.6.0
+64 silly idealTree ├── balanced-match@0.4.2
+64 silly idealTree ├── base64url@2.0.0
+64 silly idealTree ├── bcrypt-pbkdf@1.0.1
+64 silly idealTree ├── bcrypt@1.0.2
+64 silly idealTree ├── bindings@1.2.1
+64 silly idealTree ├── block-stream@0.0.9
+64 silly idealTree ├── bluebird@2.10.2
+64 silly idealTree ├─┬ body-parser@1.17.1
+64 silly idealTree │ ├── debug@2.6.1
+64 silly idealTree │ └── ms@0.7.2
+64 silly idealTree ├── boom@2.10.1
+64 silly idealTree ├── brace-expansion@1.1.7
+64 silly idealTree ├── bson@1.0.4
+64 silly idealTree ├── buffer-equal-constant-time@1.0.1
+64 silly idealTree ├── buffer-shims@1.0.0
+64 silly idealTree ├── bytes@2.4.0
+64 silly idealTree ├── caseless@0.12.0
+64 silly idealTree ├── co@4.6.0
+64 silly idealTree ├── code-point-at@1.1.0
+64 silly idealTree ├── combined-stream@1.0.5
+64 silly idealTree ├── concat-map@0.0.1
+64 silly idealTree ├── console-control-strings@1.1.0
+64 silly idealTree ├── content-disposition@0.5.2
+64 silly idealTree ├── content-type@1.0.2
+64 silly idealTree ├── cookie-parser@1.4.3
+64 silly idealTree ├── cookie-signature@1.0.6
+64 silly idealTree ├── cookie@0.3.1
+64 silly idealTree ├── core-util-is@1.0.2
+64 silly idealTree ├── crc@3.4.4
+64 silly idealTree ├── cryptiles@2.0.5
+64 silly idealTree ├─┬ dashdash@1.14.1
+64 silly idealTree │ └── assert-plus@1.0.0
+64 silly idealTree ├── debug@2.2.0
+64 silly idealTree ├── deep-extend@0.4.2
+64 silly idealTree ├── delayed-stream@1.0.0
+64 silly idealTree ├── delegates@1.0.0
+64 silly idealTree ├── depd@1.1.0
+64 silly idealTree ├── destroy@1.0.4
+64 silly idealTree ├── ecc-jsbn@0.1.1
+64 silly idealTree ├── ecdsa-sig-formatter@1.0.9
+64 silly idealTree ├── ee-first@1.1.1
+64 silly idealTree ├── encodeurl@1.0.1
+64 silly idealTree ├── es6-promise@3.2.1
+64 silly idealTree ├── escape-html@1.0.3
+64 silly idealTree ├── etag@1.8.0
+64 silly idealTree ├─┬ express-session@1.15.2
+64 silly idealTree │ ├── debug@2.6.3
+64 silly idealTree │ └── ms@0.7.2
+64 silly idealTree ├─┬ express@4.15.2
+64 silly idealTree │ ├── debug@2.6.1
+64 silly idealTree │ └── ms@0.7.2
+64 silly idealTree ├── extend@3.0.1
+64 silly idealTree ├── extsprintf@1.0.2
+64 silly idealTree ├─┬ finalhandler@1.0.2
+64 silly idealTree │ ├── debug@2.6.4
+64 silly idealTree │ └── ms@0.7.3
+64 silly idealTree ├── forever-agent@0.6.1
+64 silly idealTree ├── form-data@2.1.4
+64 silly idealTree ├── forwarded@0.1.0
+64 silly idealTree ├── fresh@0.5.0
+64 silly idealTree ├── fs.realpath@1.0.0
+64 silly idealTree ├── fstream-ignore@1.0.5
+64 silly idealTree ├── fstream@1.0.11
+64 silly idealTree ├── gauge@2.7.4
+64 silly idealTree ├─┬ getpass@0.1.7
+64 silly idealTree │ └── assert-plus@1.0.0
+64 silly idealTree ├── glob@7.1.1
+64 silly idealTree ├── graceful-fs@4.1.11
+64 silly idealTree ├── har-schema@1.0.5
+64 silly idealTree ├── har-validator@4.2.1
+64 silly idealTree ├── has-unicode@2.0.1
+64 silly idealTree ├── hawk@3.1.3
+64 silly idealTree ├── hoek@2.16.3
+64 silly idealTree ├── hooks-fixed@2.0.0
+64 silly idealTree ├── http-errors@1.6.1
+64 silly idealTree ├── http-signature@1.1.1
+64 silly idealTree ├── iconv-lite@0.4.15
+64 silly idealTree ├── inflight@1.0.6
+64 silly idealTree ├── inherits@2.0.3
+64 silly idealTree ├── ini@1.3.4
+64 silly idealTree ├── ipaddr.js@1.3.0
+64 silly idealTree ├── is-fullwidth-code-point@1.0.0
+64 silly idealTree ├── is-typedarray@1.0.0
+64 silly idealTree ├── isarray@1.0.0
+64 silly idealTree ├── isemail@1.2.0
+64 silly idealTree ├── isstream@0.1.2
+64 silly idealTree ├── jodid25519@1.0.2
+64 silly idealTree ├── joi@6.10.1
+64 silly idealTree ├── jsbn@0.1.1
+64 silly idealTree ├── json-schema@0.2.3
+64 silly idealTree ├── json-stable-stringify@1.0.1
+64 silly idealTree ├── json-stringify-safe@5.0.1
+64 silly idealTree ├── jsonify@0.0.0
+64 silly idealTree ├── jsonwebtoken@7.4.0
+64 silly idealTree ├─┬ jsprim@1.4.0
+64 silly idealTree │ └── assert-plus@1.0.0
+64 silly idealTree ├── jwa@1.1.5
+64 silly idealTree ├── jws@3.1.4
+64 silly idealTree ├── kareem@1.4.1
+64 silly idealTree ├── lodash.once@4.1.1
+64 silly idealTree ├── lodash@4.17.4
+64 silly idealTree ├── media-typer@0.3.0
+64 silly idealTree ├── merge-descriptors@1.0.1
+64 silly idealTree ├── methods@1.1.2
+64 silly idealTree ├── mime-db@1.27.0
+64 silly idealTree ├── mime-types@2.1.15
+64 silly idealTree ├── mime@1.3.4
+64 silly idealTree ├── minimatch@3.0.4
+64 silly idealTree ├── minimist@0.0.8
+64 silly idealTree ├── mkdirp@0.5.1
+64 silly idealTree ├── moment@2.18.1
+64 silly idealTree ├── mongodb-core@2.1.10
+64 silly idealTree ├─┬ mongodb@2.2.26
+64 silly idealTree │ └── readable-stream@2.2.7
+64 silly idealTree ├─┬ mongoose@4.9.9
+64 silly idealTree │ └── ms@0.7.2
+64 silly idealTree ├── mpath@0.2.1
+64 silly idealTree ├── mpromise@0.5.5
+64 silly idealTree ├─┬ mquery@2.3.0
+64 silly idealTree │ └── sliced@0.0.5
+64 silly idealTree ├── ms@0.7.1
+64 silly idealTree ├── muri@1.2.1
+64 silly idealTree ├── nan@2.5.0
+64 silly idealTree ├── negotiator@0.6.1
+64 silly idealTree ├── node-pre-gyp@0.6.32
+64 silly idealTree ├── nopt@3.0.6
+64 silly idealTree ├── npmlog@4.1.0
+64 silly idealTree ├── number-is-nan@1.0.1
+64 silly idealTree ├── oauth-sign@0.8.2
+64 silly idealTree ├── object-assign@4.1.1
+64 silly idealTree ├── on-finished@2.3.0
+64 silly idealTree ├── on-headers@1.0.1
+64 silly idealTree ├── once@1.4.0
+64 silly idealTree ├── parseurl@1.3.1
+64 silly idealTree ├── path-is-absolute@1.0.1
+64 silly idealTree ├── path-to-regexp@0.1.7
+64 silly idealTree ├── performance-now@0.2.0
+64 silly idealTree ├── process-nextick-args@1.0.7
+64 silly idealTree ├── proxy-addr@1.1.4
+64 silly idealTree ├── punycode@1.4.1
+64 silly idealTree ├── qs@6.4.0
+64 silly idealTree ├── random-bytes@1.0.0
+64 silly idealTree ├── range-parser@1.2.0
+64 silly idealTree ├── raw-body@2.2.0
+64 silly idealTree ├─┬ rc@1.1.7
+64 silly idealTree │ └── minimist@1.2.0
+64 silly idealTree ├── readable-stream@2.2.9
+64 silly idealTree ├── regexp-clone@0.0.1
+64 silly idealTree ├── request@2.81.0
+64 silly idealTree ├── require_optional@1.0.0
+64 silly idealTree ├── resolve-from@2.0.0
+64 silly idealTree ├── rimraf@2.5.4
+64 silly idealTree ├── safe-buffer@5.0.1
+64 silly idealTree ├── semver@5.3.0
+64 silly idealTree ├─┬ send@0.15.1
+64 silly idealTree │ ├── debug@2.6.1
+64 silly idealTree │ └── ms@0.7.2
+64 silly idealTree ├── serve-static@1.12.1
+64 silly idealTree ├── set-blocking@2.0.0
+64 silly idealTree ├── setprototypeof@1.0.3
+64 silly idealTree ├── signal-exit@3.0.2
+64 silly idealTree ├── sliced@1.0.1
+64 silly idealTree ├── sntp@1.0.9
+64 silly idealTree ├─┬ sshpk@1.13.0
+64 silly idealTree │ └── assert-plus@1.0.0
+64 silly idealTree ├── statuses@1.3.1
+64 silly idealTree ├── string_decoder@1.0.0
+64 silly idealTree ├── string-width@1.0.2
+64 silly idealTree ├── stringstream@0.0.5
+64 silly idealTree ├── strip-ansi@3.0.1
+64 silly idealTree ├── strip-json-comments@2.0.1
+64 silly idealTree ├─┬ tar-pack@3.3.0
+64 silly idealTree │ ├── once@1.3.3
+64 silly idealTree │ ├── readable-stream@2.1.5
+64 silly idealTree │ └── string_decoder@0.10.31
+64 silly idealTree ├── tar@2.2.1
+64 silly idealTree ├── topo@1.1.0
+64 silly idealTree ├── tough-cookie@2.3.2
+64 silly idealTree ├── tunnel-agent@0.6.0
+64 silly idealTree ├── tweetnacl@0.14.5
+64 silly idealTree ├── type-is@1.6.15
+64 silly idealTree ├── uid-number@0.0.6
+64 silly idealTree ├── uid-safe@2.1.4
+64 silly idealTree ├── unpipe@1.0.0
+64 silly idealTree ├── util-deprecate@1.0.2
+64 silly idealTree ├── utils-merge@1.0.0
+64 silly idealTree ├── uuid@3.0.1
+64 silly idealTree ├── vary@1.1.1
+64 silly idealTree ├── verror@1.3.6
+64 silly idealTree ├── wide-align@1.1.2
+64 silly idealTree ├── wrappy@1.0.2
+64 silly idealTree └── xtend@4.0.1
+65 silly generateActionsToTake Starting
+66 silly install generateActionsToTake
+67 warn checkPermissions Missing write access to /home/trinhthang/Web-6/BE1/node_modules
+68 silly rollbackFailedOptional Starting
+69 silly rollbackFailedOptional Finishing
+70 silly runTopLevelLifecycles Finishing
+71 silly install printInstalled
+72 warn long@1.0.0 No description
+73 verbose If you need help, you may report this error at:
+73 verbose     <https://github.com/npm/npm/issues>
+74 warn long@1.0.0 No repository field.
+75 verbose If you need help, you may report this error at:
+75 verbose     <https://github.com/npm/npm/issues>
+76 verbose stack Error: EACCES: permission denied, access '/home/trinhthang/Web-6/BE1/node_modules'
+76 verbose stack     at Error (native)
+77 verbose cwd /home/trinhthang/Web-6/BE1
+78 error Linux 4.8.0-49-generic
+79 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "cookie-parser" "--save"
+80 error node v6.10.2
+81 error npm  v3.10.10
+82 error path /home/trinhthang/Web-6/BE1/node_modules
+83 error code EACCES
+84 error errno -13
+85 error syscall access
+86 error Error: EACCES: permission denied, access '/home/trinhthang/Web-6/BE1/node_modules'
+86 error     at Error (native)
+86 error  { Error: EACCES: permission denied, access '/home/trinhthang/Web-6/BE1/node_modules'
+86 error     at Error (native)
+86 error   errno: -13,
+86 error   code: 'EACCES',
+86 error   syscall: 'access',
+86 error   path: '/home/trinhthang/Web-6/BE1/node_modules' }
+87 error Please try running this command again as root/Administrator.
+88 verbose exit [ -13, true ]

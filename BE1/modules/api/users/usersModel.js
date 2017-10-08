@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 const bcrypt = require('bcrypt');
+const ObjectId = Schema.ObjectId;
 
 var usersSchema = new Schema({
   id : { type : Number, required : true, unique : true },
@@ -20,7 +21,8 @@ var usersSchema = new Schema({
   createdDate :
   { type : Date, default : new Date().toISOString() },
   updatedDate :
-  { type : Date, default : new Date().toISOString() }
+  { type : Date, default : new Date().toISOString() },
+  profile : { type : ObjectId, ref : 'profiles', default : null}
 });
 
 usersSchema.index({username : "text", email : "text"});

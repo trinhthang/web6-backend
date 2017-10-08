@@ -36,7 +36,7 @@ var createUser = (data, callback) => {
 
 var getUserByUsername = (username, callback) => {
   try {
-    usersModel.findOne({username : username}).exec((err, user) => {
+    usersModel.findOne({username : username}).populate('profile').exec((err, user) => {
       if (err) {
         callback(err);
       } else {
@@ -103,7 +103,8 @@ var authenMiddleware = (req, res, next) => {
       if (doc) {
         req.userInfo = {
           id : doc._id,
-          username : doc.username
+          username : doc.username,
+          profile : doc.profile
         }
         next();
       } else {

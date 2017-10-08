@@ -1,0 +1,65 @@
+html {
+  font-family: "Tahoma", "Arial", sans-serif;
+}
+h1,
+a {
+  color : blue;
+}
+
+p {
+  background: brown;
+}
+p:hover {
+  background: yellow;
+}
+
+#first {
+  text-decoration: underline;
+}
+
+.italic{
+  font-style : italic;
+}
+
+.gray_bg{
+  background: gray;
+}
+
+[href]{
+  font-size: 60px;
+}
+
+[type="password"]{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+nav a{
+  text-decoration : line-through;
+}
+
+nav > a{
+  font-weight: bold;
+}
+img{
+  max-width: 20%;
+  border-radius: 10%;
+}
+img:hover{
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.6);
+}
+
+a:active{
+  color: #ff0000;
+}
+
+input:focus{
+  border: 1px dashed red;
+}
+
+.rect{
+  background: #f8f8ff;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  background: red;
+}
